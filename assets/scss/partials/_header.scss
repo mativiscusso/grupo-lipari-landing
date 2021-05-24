@@ -21,5 +21,14 @@ header {
         .seccion-texto {
             padding: 15px 0;
         }
+        .button-section {
+            svg {
+                fill: $celeste;
+            }
+        }
     }
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
 }

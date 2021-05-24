@@ -30,7 +30,7 @@ a {
         display: flex;
         align-items: center;
         padding: 10px 0;
-        img {
+        svg {
             width: 25px !important;
             margin: 0 0 0 10px !important;
             box-shadow: none !important;
@@ -44,5 +44,14 @@ a {
     color: #2a2530;
     a {
         font-weight: bolder;
+    }
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 2rem;
     }
 }

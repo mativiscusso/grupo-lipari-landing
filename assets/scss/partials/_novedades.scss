@@ -6,7 +6,6 @@
     .seccion-texto {
         background: rgba(0, 0, 0, 0.384);
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 37%, rgba(255, 255, 255, 0) 100%);
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
         z-index: 1;
         padding: 12rem 9rem 1rem 3rem;
         width: 100%;
@@ -17,6 +16,13 @@
             a {
                 color: #fff;
             }
+            svg {
+                fill: #fff;
+            }
         }
     }
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
 }

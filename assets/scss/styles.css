@@ -34,7 +34,7 @@ a {
   padding: 10px 0;
 }
 
-.button-section a img {
+.button-section a svg {
   width: 25px !important;
   margin: 0 0 0 10px !important;
   -webkit-box-shadow: none !important;
@@ -50,6 +50,15 @@ a {
 
 .copy a {
   font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
 }
 
 /* Menu */
@@ -289,6 +298,10 @@ header section:nth-child(2) .seccion-texto {
   padding: 15px 0;
 }
 
+header section:nth-child(2) .button-section svg {
+  fill: #009fe3;
+}
+
 #rrhh {
   position: relative;
   height: 400px;
@@ -313,6 +326,10 @@ header section:nth-child(2) .seccion-texto {
   color: #fff;
 }
 
+#rrhh .seccion-texto .button-section svg {
+  fill: #fff;
+}
+
 #historia {
   position: relative;
   background: -webkit-gradient(linear, left bottom, left top, from(#ececec), to(white));
@@ -335,6 +352,10 @@ header section:nth-child(2) .seccion-texto {
   color: #575755;
 }
 
+#historia .seccion-texto .button-section a svg {
+  fill: #575755;
+}
+
 #novedades {
   position: relative;
   height: 400px;
@@ -346,8 +367,6 @@ header section:nth-child(2) .seccion-texto {
   background: rgba(0, 0, 0, 0.384);
   background: -webkit-gradient(linear, left bottom, left top, color-stop(37%, rgba(0, 0, 0, 0.7)), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 37%, rgba(255, 255, 255, 0) 100%);
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
   z-index: 1;
   padding: 12rem 9rem 1rem 3rem;
   width: 100%;
@@ -359,12 +378,16 @@ header section:nth-child(2) .seccion-texto {
   color: #fff;
 }
 
+#novedades .seccion-texto .button-section svg {
+  fill: #fff;
+}
+
 #conocenos {
   position: relative;
   height: 400px;
   background-image: url("../images/planta-laser.jpg");
   background-size: cover;
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 
 #conocenos .seccion-texto {
@@ -372,7 +395,7 @@ header section:nth-child(2) .seccion-texto {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(41%, rgba(0, 0, 0, 0.8)), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 41%, rgba(255, 255, 255, 0) 100%);
   z-index: 1;
-  padding: 2rem 6rem 1rem 3rem;
+  padding: 6rem 6rem 1rem 3rem;
   width: 100%;
   color: #fff;
   height: 400px;
@@ -380,6 +403,10 @@ header section:nth-child(2) .seccion-texto {
 
 #conocenos .seccion-texto .button-section a {
   color: #fff;
+}
+
+#conocenos .seccion-texto .button-section svg {
+  fill: #fff;
 }
 
 #conocenos .empresas {
@@ -421,10 +448,29 @@ header section:nth-child(2) .seccion-texto {
   width: 200px;
 }
 
+#conocenos .empresas .button-section a {
+  color: #575755;
+}
+
+#conocenos .empresas .button-section svg {
+  fill: #575755;
+}
+
+@media (min-width: 768px) {
+  #conocenos .empresas {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 2rem 0;
+  }
+}
+
 footer {
   background: -webkit-gradient(linear, left top, right top, color-stop(30%, #009fe3), to(#004b8e));
   background: linear-gradient(90deg, #009fe3 30%, #004b8e 100%);
   margin-top: 450px;
+  padding: 2rem 0;
 }
 
 footer div {
@@ -440,7 +486,38 @@ footer div:nth-child(2) a {
   text-transform: uppercase;
 }
 
+footer div:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 footer div:nth-child(3) img {
-  width: 32%;
+  width: 25%;
+}
+
+footer .menu-items {
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  footer {
+    margin-top: 200px;
+    padding: 2rem;
+  }
+  footer div:nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer div:nth-child(3) img {
+    width: 22%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

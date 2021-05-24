@@ -1,6 +1,7 @@
 footer {
     background: $bg-gradient;
     margin-top: 450px;
+    padding: 2rem 0;
     div {
         padding: 1rem;
     }
@@ -16,8 +17,30 @@ footer {
         }
     }
     div:nth-child(3) {
+        display: flex;
+        justify-content: space-between;
         img {
-            width: 32%;
+            width: 25%;
         }
     }
+    .menu-items {
+        line-height: 1.5;
+    }
+}
+@media (min-width: 768px) {
+    footer {
+        margin-top: 200px;
+        padding: 2rem;
+        div:nth-child(3) {
+            display: flex;
+            justify-content: space-between;
+            img {
+                width: 22%;
+            }
+        }
+    }
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
 }
