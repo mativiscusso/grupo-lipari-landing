@@ -6,7 +6,11 @@
 }
 
 body {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 ul {
@@ -16,6 +20,36 @@ ul {
 a {
   color: black;
   text-decoration: none;
+}
+
+.button-section a {
+  font-weight: 800;
+  color: #009fe3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+}
+
+.button-section a img {
+  width: 25px !important;
+  margin: 0 0 0 10px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.copy {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 11px;
+  color: #2a2530;
+}
+
+.copy a {
+  font-weight: bolder;
 }
 
 /* Menu */
@@ -52,6 +86,7 @@ a {
   text-decoration: none;
   -webkit-transition: all 300ms;
   transition: all 300ms;
+  text-transform: uppercase;
 }
 
 .header ul li a:hover {
@@ -122,7 +157,7 @@ a {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 395px;
+  max-height: 420px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -215,5 +250,197 @@ a {
       opacity: 1;
     }
   }
+}
+
+header {
+  position: relative;
+}
+
+header section:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 250px;
+  padding: 0 2rem;
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #009fe3), to(#004b8e));
+  background: linear-gradient(90deg, #009fe3 30%, #004b8e 100%);
+}
+
+header section:first-child h1 {
+  color: #fff;
+  font-style: italic;
+}
+
+header section:nth-child(2) {
+  padding: 0 2rem 2rem 2rem;
+}
+
+header section:nth-child(2) img {
+  width: 100%;
+  margin-top: -10px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+}
+
+header section:nth-child(2) .seccion-texto {
+  padding: 15px 0;
+}
+
+#rrhh {
+  position: relative;
+  height: 400px;
+  background-image: url("../images/planta.jpg");
+  background-size: cover;
+  padding: 1rem 2rem;
+}
+
+#rrhh .seccion-texto {
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #009fe3), to(#004b8e));
+  background: linear-gradient(90deg, #009fe3 30%, #004b8e 100%);
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+  z-index: 1;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 230px;
+  color: #fff;
+}
+
+#rrhh .seccion-texto .button-section a {
+  color: #fff;
+}
+
+#historia {
+  position: relative;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ececec), to(white));
+  background: linear-gradient(0deg, #ececec 0%, white 100%);
+  padding: 1rem 2rem;
+  margin-top: 55px;
+}
+
+#historia img {
+  width: 100%;
+}
+
+#historia .seccion-texto {
+  padding: 1rem;
+  width: 100%;
+  color: #575755;
+}
+
+#historia .seccion-texto .button-section a {
+  color: #575755;
+}
+
+#novedades {
+  position: relative;
+  height: 400px;
+  background-image: url("../images/novedades.jpg");
+  background-size: cover;
+}
+
+#novedades .seccion-texto {
+  background: rgba(0, 0, 0, 0.384);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(37%, rgba(0, 0, 0, 0.7)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 37%, rgba(255, 255, 255, 0) 100%);
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+  z-index: 1;
+  padding: 12rem 9rem 1rem 3rem;
+  width: 100%;
+  color: #fff;
+  height: 400px;
+}
+
+#novedades .seccion-texto .button-section a {
+  color: #fff;
+}
+
+#conocenos {
+  position: relative;
+  height: 400px;
+  background-image: url("../images/planta-laser.jpg");
+  background-size: cover;
+  margin: 2rem 0;
+}
+
+#conocenos .seccion-texto {
+  background: black;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(41%, rgba(0, 0, 0, 0.8)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 41%, rgba(255, 255, 255, 0) 100%);
+  z-index: 1;
+  padding: 2rem 6rem 1rem 3rem;
+  width: 100%;
+  color: #fff;
+  height: 400px;
+}
+
+#conocenos .seccion-texto .button-section a {
+  color: #fff;
+}
+
+#conocenos .empresas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2rem;
+  margin-top: -30px;
+  -webkit-box-shadow: -5px -15px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: -5px -15px 10px rgba(0, 0, 0, 0.3);
+}
+
+#conocenos .empresas div {
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#conocenos .empresas div img {
+  width: 200px;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #009fe3), to(#004b8e));
+  background: linear-gradient(90deg, #009fe3 30%, #004b8e 100%);
+  margin-top: 450px;
+}
+
+footer div {
+  padding: 1rem;
+}
+
+footer div:first-child img {
+  width: 100px;
+}
+
+footer div:nth-child(2) a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer div:nth-child(3) img {
+  width: 32%;
 }
 /*# sourceMappingURL=styles.css.map */

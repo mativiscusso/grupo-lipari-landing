@@ -1,0 +1,19 @@
+#historia {
+    position: relative;
+    background: linear-gradient(0deg, #ececec 0%, rgba(255, 255, 255, 1) 100%);
+    padding: 1rem 2rem;
+    margin-top: 55px;
+    img {
+        width: 100%;
+    }
+    .seccion-texto {
+        padding: 1rem;
+        width: 100%;
+        color: $gris-oscuro;
+        .button-section {
+            a {
+                color: $gris-oscuro;
+            }
+        }
+    }
+}

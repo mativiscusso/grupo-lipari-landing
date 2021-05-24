@@ -1,0 +1,25 @@
+header {
+    position: relative;
+    section:first-child {
+        display: flex;
+        align-items: center;
+        height: 250px;
+        padding: 0 2rem;
+        background: $bg-gradient;
+        h1 {
+            color: #fff;
+            font-style: italic;
+        }
+    }
+    section:nth-child(2) {
+        padding: 0 2rem 2rem 2rem;
+        img {
+            width: 100%;
+            margin-top: -10px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+        }
+        .seccion-texto {
+            padding: 15px 0;
+        }
+    }
+}

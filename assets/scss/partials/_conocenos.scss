@@ -1,0 +1,40 @@
+#conocenos {
+    position: relative;
+    height: 400px;
+    background-image: url("../images/planta-laser.jpg");
+    background-size: cover;
+    margin: 2rem 0;
+    .seccion-texto {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 41%, rgba(255, 255, 255, 0) 100%);
+        z-index: 1;
+        padding: 2rem 6rem 1rem 3rem;
+        width: 100%;
+        color: #fff;
+        height: 400px;
+        .button-section {
+            a {
+                color: #fff;
+            }
+        }
+    }
+    .empresas {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2rem;
+        margin-top: -30px;
+        box-shadow: -5px -15px 10px rgba(0, 0, 0, 0.3);
+        div {
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 200px;
+            }
+        }
+    }
+}

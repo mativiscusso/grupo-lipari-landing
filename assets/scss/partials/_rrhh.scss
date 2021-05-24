@@ -1,0 +1,21 @@
+#rrhh {
+    position: relative;
+    height: 400px;
+    background-image: url("../images/planta.jpg");
+    background-size: cover;
+    padding: 1rem 2rem;
+    .seccion-texto {
+        background: $bg-gradient;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+        z-index: 1;
+        padding: 1rem;
+        width: 100%;
+        margin-top: 230px;
+        color: #fff;
+        .button-section {
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
