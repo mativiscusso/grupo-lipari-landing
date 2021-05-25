@@ -41,6 +41,23 @@ footer {
     }
 }
 @media (min-width: 1200px) {
+    footer {
+        margin-top: 250px;
+        display: flex;
+
+        div:first-child {
+            width: 25%;
+            img {
+                margin-top: -100px;
+            }
+        }
+        div:nth-child(2) {
+            width: 25%;
+        }
+        div:last-child {
+            width: 50%;
+        }
+    }
 }
 @media (min-width: 1400px) {
 }

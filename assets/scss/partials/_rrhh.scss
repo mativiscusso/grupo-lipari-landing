@@ -23,6 +23,15 @@
     }
 }
 @media (min-width: 1200px) {
+    #rrhh {
+        margin-top: 6rem;
+        height: 600px;
+        .seccion-texto {
+            width: 40%;
+            padding: 3rem;
+            margin-top: 320px;
+        }
+    }
 }
 @media (min-width: 1400px) {
 }

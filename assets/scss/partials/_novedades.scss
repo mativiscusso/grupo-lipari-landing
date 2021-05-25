@@ -5,7 +5,7 @@
     background-size: cover;
     .seccion-texto {
         background: rgba(0, 0, 0, 0.384);
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 37%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 37%, rgba(255, 255, 255, 0) 100%);
         z-index: 1;
         padding: 12rem 9rem 1rem 3rem;
         width: 100%;
@@ -23,6 +23,15 @@
     }
 }
 @media (min-width: 1200px) {
+    #novedades {
+        height: 500px;
+        margin-top: 24rem;
+        .seccion-texto {
+            height: 500px;
+            margin-top: 24rem;
+            padding: 6rem 3rem 1rem 50rem;
+        }
+    }
 }
 @media (min-width: 1400px) {
 }

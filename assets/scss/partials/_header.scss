@@ -3,12 +3,14 @@ header {
     section:first-child {
         display: flex;
         align-items: center;
-        height: 250px;
-        padding: 0 2rem;
+        height: 400px;
+        padding: 0 3rem;
         background: $bg-gradient;
         h1 {
             color: #fff;
+            width: 25%;
             font-style: italic;
+            font-size: 4.5rem;
         }
     }
     section:nth-child(2) {
@@ -29,6 +31,19 @@ header {
     }
 }
 @media (min-width: 1200px) {
+    header {
+        section:nth-child(2) {
+            display: flex;
+            align-items: center;
+            img {
+                width: 50%;
+                margin-top: -30px;
+            }
+            .seccion-texto {
+                padding: 2rem 4rem;
+            }
+        }
+    }
 }
 @media (min-width: 1400px) {
 }

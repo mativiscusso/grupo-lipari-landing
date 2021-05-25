@@ -21,6 +21,22 @@
     }
 }
 @media (min-width: 1200px) {
+    #historia {
+        display: flex;
+        margin-top: 8rem;
+        .seccion-texto {
+            padding: 2rem;
+        }
+        img {
+            width: 45%;
+        }
+        .mobile-none {
+            display: block;
+            position: absolute;
+            width: 45%;
+            margin-top: 2rem;
+        }
+    }
 }
 @media (min-width: 1400px) {
 }
