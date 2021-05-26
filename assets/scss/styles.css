@@ -477,7 +477,6 @@ header section:nth-child(2) .button-section svg {
   height: 400px;
   background-image: url("../images/planta.jpg");
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
   padding: 1rem 2rem;
 }
@@ -504,6 +503,7 @@ header section:nth-child(2) .button-section svg {
 
 @media (min-width: 1200px) {
   #rrhh {
+    background-attachment: fixed;
     margin-top: 6rem;
     height: 600px;
   }
@@ -588,7 +588,6 @@ header section:nth-child(2) .button-section svg {
   height: 400px;
   background-image: url("../images/novedades.jpg");
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
 }
 
@@ -613,6 +612,7 @@ header section:nth-child(2) .button-section svg {
 
 @media (min-width: 1200px) {
   #novedades {
+    background-attachment: fixed;
     height: 500px;
     margin-top: 24rem;
   }
