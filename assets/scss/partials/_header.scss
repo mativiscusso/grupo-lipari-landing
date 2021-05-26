@@ -10,7 +10,7 @@ header {
             color: #fff;
             width: 25%;
             font-style: italic;
-            font-size: 4.5rem;
+            font-size: 3rem;
         }
     }
     section:nth-child(2) {
@@ -32,6 +32,11 @@ header {
 }
 @media (min-width: 1200px) {
     header {
+        section:first-child {
+            h1 {
+                font-size: 4.5rem;
+            }
+        }
         section:nth-child(2) {
             display: flex;
             align-items: center;
