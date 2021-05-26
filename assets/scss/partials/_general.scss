@@ -1,14 +1,17 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 $bg-gradient: linear-gradient(90deg, #009fe3 30%, rgba(0, 75, 142, 1) 100%);
 $celeste: #009fe3;
 $gris-oscuro: #575755;
 $gris-intermedio: #ececec;
 $gris-claro: #ececec;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: "Raleway", sans-serif;
@@ -35,10 +38,18 @@ a {
             margin: 0 0 0 10px !important;
             box-shadow: none !important;
         }
+        transition: transform 0.1s ease;
+        &:hover {
+            transform: translateX(10px);
+            font-size: 18px;
+        }
     }
 }
 .mobile-none {
     display: none;
+}
+.active {
+    display: block !important;
 }
 .copy {
     padding: 0.5rem;

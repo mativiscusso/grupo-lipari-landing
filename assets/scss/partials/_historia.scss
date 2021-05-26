@@ -1,8 +1,8 @@
 #historia {
     position: relative;
-    background: linear-gradient(0deg, #ececec 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(180deg, #ececec 0%, rgba(255, 255, 255, 1) 100%);
     padding: 1rem 2rem;
-    margin-top: 55px;
+    margin-top: 8rem;
     img {
         width: 100%;
     }
@@ -39,4 +39,10 @@
     }
 }
 @media (min-width: 1400px) {
+    #historia {
+        margin-top: 12rem;
+        .seccion-texto {
+            padding: 4rem;
+        }
+    }
 }

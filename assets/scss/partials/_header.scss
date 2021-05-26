@@ -51,4 +51,20 @@ header {
     }
 }
 @media (min-width: 1400px) {
+    header {
+        section {
+            &:first-child {
+                height: 500px;
+            }
+            padding: 0 10rem !important;
+        }
+        section:nth-child(2) {
+            img {
+                width: 45%;
+            }
+            .seccion-texto {
+                padding: 2rem 8rem;
+            }
+        }
+    }
 }

@@ -3,11 +3,13 @@
     height: 400px;
     background-image: url("../images/novedades.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     .seccion-texto {
         background: rgba(0, 0, 0, 0.384);
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 37%, rgba(255, 255, 255, 0) 100%);
         z-index: 1;
-        padding: 12rem 9rem 1rem 3rem;
+        padding: 6rem 9rem 1rem 3rem;
         width: 100%;
         color: #fff;
         height: 400px;
@@ -34,4 +36,13 @@
     }
 }
 @media (min-width: 1400px) {
+    #novedades {
+        height: 600px;
+        margin-top: 30rem;
+        .seccion-texto {
+            height: 600px;
+            margin-top: 30rem;
+            padding: 8rem 10rem 1rem 70rem;
+        }
+    }
 }

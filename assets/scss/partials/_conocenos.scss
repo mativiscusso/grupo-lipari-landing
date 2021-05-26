@@ -8,7 +8,7 @@
         background: rgb(0, 0, 0);
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 41%, rgba(255, 255, 255, 0) 100%);
         z-index: 1;
-        padding: 6rem 6rem 1rem 3rem;
+        padding: 8rem 6rem 1rem 3rem;
         width: 100%;
         color: #fff;
         height: 400px;
@@ -84,4 +84,10 @@
 }
 
 @media (min-width: 1400px) {
+    #conocenos {
+        margin-top: 12rem;
+        .seccion-texto {
+            padding: 8rem 70rem 1rem 8rem;
+        }
+    }
 }

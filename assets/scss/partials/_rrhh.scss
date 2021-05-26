@@ -3,6 +3,8 @@
     height: 400px;
     background-image: url("../images/planta.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     padding: 1rem 2rem;
     .seccion-texto {
         background: $bg-gradient;
@@ -34,4 +36,14 @@
     }
 }
 @media (min-width: 1400px) {
+    #rrhh {
+        padding: 1rem 10rem;
+        margin-top: 10rem;
+        height: 700px;
+        .seccion-texto {
+            width: 30%;
+            padding: 3rem;
+            margin-top: 370px;
+        }
+    }
 }
