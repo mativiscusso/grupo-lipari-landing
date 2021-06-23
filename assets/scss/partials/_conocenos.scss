@@ -67,19 +67,12 @@
 }
 @media (min-width: 1200px) {
     #conocenos {
-        height: 500px;
+        height: 600px;
         margin-top: 12rem;
-        .seccion-texto {
-            height: 500px;
-            margin-top: 8rem;
-            padding: 8rem 54rem 1rem 4rem;
-        }
         .empresas {
             width: 80%;
             position: relative;
-            margin: -90px auto;
-            box-shadow: none;
-            border-radius: 0;
+            margin: auto;
             justify-content: space-around;
             div {
                 img {

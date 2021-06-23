@@ -368,12 +368,19 @@ a {
     -webkit-box-shadow: 3px 3px 10px #0000001f;
             box-shadow: 3px 3px 10px #0000001f;
     background-color: rgba(255, 255, 255, 0.9);
+    height: 50px;
     -webkit-animation: fadein 0.3s;
     /* Safari, Chrome and Opera > 12.1 */
     /* Firefox < 16 */
     /* Internet Explorer */
     /* Opera < 12.1 */
     animation: fadein 0.3s;
+  }
+  .header .menu.is-fixed #logo-menu {
+    top: 5px;
+  }
+  .header .menu.is-fixed #logo-menu img {
+    width: 40px;
   }
   @-webkit-keyframes fadein {
     from {
@@ -857,21 +864,13 @@ header section:nth-child(2) .button-section svg {
 
 @media (min-width: 1200px) {
   #conocenos {
-    height: 500px;
+    height: 600px;
     margin-top: 12rem;
-  }
-  #conocenos .seccion-texto {
-    height: 500px;
-    margin-top: 8rem;
-    padding: 8rem 54rem 1rem 4rem;
   }
   #conocenos .empresas {
     width: 80%;
     position: relative;
-    margin: -90px auto;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    border-radius: 0;
+    margin: auto;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
