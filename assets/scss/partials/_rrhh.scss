@@ -22,11 +22,40 @@
             }
         }
     }
+    form,
+    label {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding: 1rem 0;
+    }
+    label {
+        padding: 0.5rem 0;
+        input {
+            padding: 0.5rem;
+            color: $gris-claro;
+            font-size: 14px;
+            outline: 0;
+            background-color: transparent;
+            border: 0;
+            border-bottom: $celeste 1px solid;
+            &:focus {
+                border: $celeste 1px solid;
+            }
+        }
+    }
+    button {
+        margin: 1rem 0;
+        background-color: $celeste;
+        color: #fff;
+        padding: 0.5rem;
+        width: 100px;
+    }
 }
 @media (min-width: 1200px) {
     #rrhh {
         background-attachment: fixed;
-        margin-top: 6rem;
+        margin-top: 2rem;
         height: 600px;
         .seccion-texto {
             width: 40%;

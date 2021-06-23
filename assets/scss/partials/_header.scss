@@ -14,7 +14,7 @@ header {
         }
     }
     section:nth-child(2) {
-        padding: 0 2rem 2rem 2rem;
+        padding: 2rem 2rem 2rem 2rem;
         img {
             width: 100%;
             margin-top: -10px;
@@ -30,9 +30,28 @@ header {
         }
     }
 }
+#pagina-nosotros {
+    position: relative;
+    section:first-child {
+        display: flex;
+        align-items: center;
+        height: 200px;
+        padding: 0 3rem;
+        background: $bg-gradient;
+    }
+    section:nth-child(2) {
+        margin-top: -150px;
+        img {
+            width: 100%;
+            margin-top: -10px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+        }
+    }
+}
 @media (min-width: 1200px) {
     header {
         section:first-child {
+            padding: 0 6rem;
             h1 {
                 font-size: 4.5rem;
             }
@@ -40,13 +59,37 @@ header {
         section:nth-child(2) {
             display: flex;
             align-items: center;
+            padding: 0 6rem;
             img {
-                width: 50%;
-                margin-top: -30px;
+                width: 45%;
+                margin-top: -35px;
             }
             .seccion-texto {
-                padding: 2rem 4rem;
+                padding: 0 8rem 0 0;
             }
+        }
+    }
+    #pagina-nosotros {
+        section:first-child {
+            height: 400px;
+            padding: 0 3rem;
+            background: $bg-gradient;
+        }
+        section:nth-child(2) {
+            margin-top: -250px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            img {
+                width: 80%;
+                margin-top: -10px;
+                box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+            }
+        }
+        main {
+            font-style: italic;
+            padding: 6rem 10rem;
+            height: 100vh;
         }
     }
 }
