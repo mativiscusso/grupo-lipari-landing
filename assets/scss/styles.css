@@ -738,11 +738,11 @@ header section:nth-child(2) .button-section svg {
 
 @media (min-width: 1200px) {
   #novedades {
-    height: 600px;
+    height: 750px;
     margin-top: 0rem;
   }
   #novedades .seccion-texto {
-    height: 500px;
+    height: 750px;
     margin-top: 0rem;
     padding: 6rem 3rem 1rem 8rem;
   }
@@ -758,11 +758,11 @@ header section:nth-child(2) .button-section svg {
 
 @media (min-width: 1400px) {
   #novedades {
-    height: 600px;
+    height: 800px;
     margin-top: 0rem;
   }
   #novedades .seccion-texto {
-    height: 600px;
+    height: 800px;
     padding: 6rem 3rem 1rem 10rem;
   }
 }
@@ -823,9 +823,8 @@ header section:nth-child(2) .button-section svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: #575755 1px solid;
-  -webkit-box-shadow: 0 0 10px #575755;
-          box-shadow: 0 0 10px #575755;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
   margin-top: 2rem;
 }
 
