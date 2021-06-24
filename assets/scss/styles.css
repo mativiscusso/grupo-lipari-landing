@@ -378,11 +378,11 @@ a {
     animation: fadein 0.3s;
   }
   .header .menu.is-fixed #logo-menu {
-    top: 5px;
+    top: 0;
     left: 60px;
   }
   .header .menu.is-fixed #logo-menu img {
-    width: 40px;
+    width: 50px;
   }
   @-webkit-keyframes fadein {
     from {
