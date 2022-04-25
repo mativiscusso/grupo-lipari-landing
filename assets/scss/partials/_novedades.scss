@@ -1,57 +1,57 @@
 #novedades {
-    position: relative;
-    height: 300px;
-    background-image: url("../images/novedades.jpg");
-    background-size: cover;
-    background-position: center;
-    .seccion-texto {
-        background: rgba(0, 0, 0, 0.384);
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 37%, rgba(255, 255, 255, 0) 100%);
-        z-index: 1;
-        padding: 3rem 9rem 1rem 3rem;
-        width: 100%;
-        color: #fff;
-        height: 400px;
-        h2 {
-            color: $celeste;
-            font-weight: bold;
-        }
-        .button-section {
-            a {
-                color: #fff;
-            }
-            svg {
-                fill: #fff;
-            }
-        }
+  position: relative;
+  height: 300px;
+  background-image: url("../images/novedades.jpg");
+  background-size: cover;
+  background-position: center;
+  .seccion-texto {
+    background: rgba(0, 0, 0, 0.384);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 37%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+    padding: 3rem 9rem 1rem 3rem;
+    width: 100%;
+    color: #fff;
+    height: 400px;
+    h2 {
+      color: #009de0;
+      font-weight: bold;
     }
+    .button-section {
+      a {
+        color: #fff;
+      }
+      svg {
+        fill: #fff;
+      }
+    }
+  }
 }
 @media (min-width: 1200px) {
-    #novedades {
-        height: 750px;
-        margin-top: 0rem;
-        .seccion-texto {
-            height: 750px;
-            margin-top: 0rem;
-            padding: 6rem 3rem 1rem 8rem;
-            h2 {
-                font-size: 4rem;
-            }
-            h3 {
-                font-size: 2.5rem;
-                font-weight: lighter;
-                font-style: italic;
-            }
-        }
+  #novedades {
+    height: 750px;
+    margin-top: 0rem;
+    .seccion-texto {
+      height: 750px;
+      margin-top: 0rem;
+      padding: 6rem 3rem 1rem 8rem;
+      h2 {
+        font-size: 4rem;
+      }
+      h3 {
+        font-size: 2.5rem;
+        font-weight: lighter;
+        font-style: italic;
+      }
     }
+  }
 }
 @media (min-width: 1400px) {
-    #novedades {
-        height: 800px;
-        margin-top: 0rem;
-        .seccion-texto {
-            height: 800px;
-            padding: 6rem 3rem 1rem 10rem;
-        }
+  #novedades {
+    height: 800px;
+    margin-top: 0rem;
+    .seccion-texto {
+      height: 800px;
+      padding: 6rem 3rem 1rem 10rem;
     }
+  }
 }
